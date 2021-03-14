@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/tabla.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header-principal">
+        <nav>
+            <div class="flotar-izq">
+                <a href="usuarios.html" class="active">Usuarios</a>
+                <a href="#">Rutinas</a>
+                <a href="#">Ejercicios</a>
+                <a href="#">Clases</a>
+
+            </div>
+
+            <div class="flotar-der">
+                <a href="perfil.html">Perfil</a>
+                <a href="#" id="btn-cerrar-sesion">Cerrar sesión</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <table id="tbl-usuarios" class="tabla">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Correo</th>
+                    <th>Fecha de nacimiento</th>
+                    <th>Sexo</th>
+                    <th>Tipo</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </main>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="js/servicios.js"></script>
+    <script src="js/navegacion.js"></script>
+    <script src="js/usuarios.js"></script>
+</body>
+
+</html>
