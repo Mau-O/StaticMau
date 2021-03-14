@@ -1,0 +1,2 @@
+# StaticMau
+New Site
